@@ -4,7 +4,7 @@
 **This Repository is home too the Keskern C++ header files. Documentation can be found in this Repo's Wiki**
 
 # Usage Example
-```
+```C++
 #include "kesk.hpp"
 
 int main() {
