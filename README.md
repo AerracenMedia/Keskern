@@ -3,6 +3,19 @@
 
 **This Repository is home too the Keskern C++ header files. Documentation can be found in this Repo's Wiki**
 
+# Usage Example
+```
+#include "kesk.hpp"
+
+int main() {
+
+  kesk::runtime* r = keskern();
+  kesk::logger log;
+  
+  r->execute("x = 1;", &log);
+}
+```
+
 # Features
 
 **Implemented Kesk Library Features:**
