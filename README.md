@@ -36,11 +36,11 @@ int main() {
 
 **Planned Kesk Library Features:**
 - Runtime Types
-  ( *There are more, just cant think of them. -Izach* )
+  ( *There are more, just cant think of them.* )
 
 **Planned Standard Library Features:**
 - Functions ( *Executable Containers* )
-- Pointers ( *Should only take a day to add. -Izach* )
+- Pointers ( *Should only take a day to add.* )
 - Proper Type Conversion for all types, using the yet to be added 'Runtime Types'
 
 # Examples of STD Keskern Script
