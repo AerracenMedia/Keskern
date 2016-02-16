@@ -136,7 +136,7 @@ namespace kesk {
 				
 				tp->push("down " + std::to_string(i));
 				
-				if (control = false) {
+				if (control == false) {
 					
 					if (str[i] == '"' || str[i] == '\'') return;
 					else if (str[i] == '\\') control = true;
