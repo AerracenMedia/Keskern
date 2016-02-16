@@ -50,7 +50,7 @@ namespace kesk {
 		
 		bool init(const std::string&, type_pack*);
 		bool init(const std::string&, std::vector<std::string>*, logger*, std::string*, size_t);
-		bool execute(std::string&, logger*);
+		bool execute(std::string, logger*);
 		std::vector<std::string> compile(std::string&, logger*);
 		void bytecode(const std::string&);
 		void post(const std::string&, handler_pack*);
@@ -165,7 +165,7 @@ namespace kesk {
 		else return false;
 	}
 	
-	bool runtime::execute(std::string& scr, logger* l = nullptr) {
+	bool runtime::execute(std::string scr, logger* l = nullptr) {
 		
 		std::vector<std::string> bc = compile(scr, l);
 		
