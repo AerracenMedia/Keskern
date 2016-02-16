@@ -42,6 +42,7 @@ int main() {
 - Functions ( *Executable Containers* )
 - Pointers ( *Should only take a day to add.* )
 - Proper Type Conversion for all types, using the yet to be added 'Runtime Types'
+- Arithmetic
 
 # Examples of STD Keskern Script
 
